@@ -1,5 +1,5 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
-import 'package:flutter/cupertino.dart';
+//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatefulWidget {
@@ -15,6 +15,9 @@ class _BottomBarState extends State<BottomBar> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("My tickets"),
+        centerTitle: true,
+        elevation: 10,
+        backgroundColor: Colors.blue,
       ),
       body: const Center(
         child: Text("body"),
